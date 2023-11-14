@@ -1,0 +1,41 @@
+name: Additional Content
+description: I have additional content that would be useful for the site
+title: "[CONTENT_ADDITION]: (Song Title here)"
+labels: ["CONTENT_ADDITION", "triage"]
+assignees:
+  - thehandsomezebra
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this form!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
+  - type: textarea
+    id: what-song
+    attributes:
+      label: What song?
+      description: A link to the orishamusic.info specific song page.  
+      placeholder: Add a link, song title & orisha this is for.
+      value: |
+        Song link: 
+        Song title: 
+        Orisha: 
+    validations:
+      required: true
+      
+  - type: textarea
+    id: remove-what
+    attributes:
+      label: What would you like to add?
+      description: Please let me know what you would like to add.  Useful information about the song, translations, related stories, etc.
+      placeholder: Describe what you would like to add.
+    validations:
+      required: true

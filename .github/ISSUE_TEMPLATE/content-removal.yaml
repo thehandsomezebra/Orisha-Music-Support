@@ -1,0 +1,41 @@
+name: Content removal request
+description: I would like content removed.
+title: "[CONTENT_REMOVAL]: (Song Title here)"
+labels: ["CONTENT_REMOVAL", "triage"]
+assignees:
+  - thehandsomezebra
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this form!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
+  - type: textarea
+    id: what-song
+    attributes:
+      label: What song?
+      description: A link to the orishamusic.info specific song page.  
+      placeholder: Add a link, song title & orisha this is for.
+      value: |
+        Song link: 
+        Song title: 
+        Orisha: 
+    validations:
+      required: true
+      
+  - type: textarea
+    id: remove-what
+    attributes:
+      label: What needs to be removed?
+      description: Please let me know what needs to be removed from this page (example would be audio or external links).
+      placeholder: Describe what needs to be removed from this page.
+    validations:
+      required: true
