@@ -1,5 +1,5 @@
-name: Additional Content
-description: I have additional content that would be useful for the site (translations, stories, etc).
+name: Content has an Error
+description: I found an error in the content
 title: "[CONTENT_ADDITION]: (Song Title here)"
 labels: ["CONTENT_ADDITION", "triage"]
 assignees:
@@ -32,10 +32,10 @@ body:
       required: true
       
   - type: textarea
-    id: add-what
+    id: remove-what
     attributes:
-      label: What would you like to add?
-      description: Please let me know what you would like to add.  Useful information about the song, translations, related stories, etc.
-      placeholder: Describe what you would like to add.
+      label: What is the error?
+      description: Please let me know the error you found. (ex. wrong lyrics, wrong translation, broken song link, etc.)
+      placeholder: Describe what the error.
     validations:
       required: true
