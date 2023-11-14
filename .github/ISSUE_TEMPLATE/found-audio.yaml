@@ -1,4 +1,4 @@
-name: I found a song
+name: I found audio for a song
 description: I would like to add audio content to the site.
 title: "[ADD_AUDIO]: (Song Title here)"
 labels: ["ADD_AUDIO", "triage"]
