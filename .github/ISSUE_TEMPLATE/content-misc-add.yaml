@@ -1,5 +1,5 @@
 name: Additional Content
-description: I have additional content that would be useful for the site
+description: I have additional content that would be useful for the site (translations, stories, etc).
 title: "[CONTENT_ADDITION]: (Song Title here)"
 labels: ["CONTENT_ADDITION", "triage"]
 assignees:
