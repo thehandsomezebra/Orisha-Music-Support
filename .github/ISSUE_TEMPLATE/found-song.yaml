@@ -46,7 +46,7 @@ body:
       required: true
 
   - type: textarea
-    id: what-song
+    id: what-audio
     attributes:
       label: Where in the audio?
       description: A clear and concise description of where to locate the audio for this song.
