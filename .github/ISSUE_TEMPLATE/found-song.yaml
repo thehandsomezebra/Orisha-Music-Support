@@ -24,10 +24,10 @@ body:
       label: What song?
       description: A link to the orishamusic.info specific song page.  
       placeholder: Add a link, song title & orisha this is for.
-      value: "|
+      value: |
         Song link: 
         Song title: 
-        Orisha: "
+        Orisha: 
     validations:
       required: true
       
@@ -37,11 +37,11 @@ body:
       label: Where's the audio?
       description: A link to the audio via youtube, spotify, etc would be appreciated.  Other forms like describing the artist, album and track on a CD will also work.
       placeholder: Add a link to the source of the audio
-      value: "|
+      value: |
         Audio link: 
         Artist: 
         Album: (if known)
-        Track: (if known)"
+        Track: (if known)
     validations:
       required: true
 
@@ -51,9 +51,9 @@ body:
       label: Where in the audio?
       description: A clear and concise description of where to locate the audio for this song.
       placeholder: In the youtube video, you can hear the call and response between timestamps 0:58-1:37
-      value: " |
+      value:  |
         Audio starts: 
-        Audio ends:  "
+        Audio ends:  
     validations:
       required: true
 
