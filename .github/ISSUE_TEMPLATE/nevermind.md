@@ -1,8 +1,8 @@
 ---
-name: I found a song!
+name: song
 about: I would like to add audio content to the site.
 title: ADD_AUDIO
-labels: ''
+labels: 'ADD_AUDIO'
 assignees: thehandsomezebra
 
 ---
