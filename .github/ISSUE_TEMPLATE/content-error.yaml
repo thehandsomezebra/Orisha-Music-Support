@@ -1,7 +1,7 @@
 name: Content has an Error
 description: I found an error in the content
-title: "[CONTENT_ADDITION]: (Song Title here)"
-labels: ["CONTENT_ADDITION", "triage"]
+title: "[CONTENT_CORRECTION]: (Song Title here)"
+labels: ["CONTENT_CORRECTION", "triage"]
 assignees:
   - thehandsomezebra
 body:
